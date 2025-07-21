@@ -186,19 +186,20 @@ const workExperiences = {
       descBullets: [
         "Developed a full ETL and NLP pipeline to analyze multi-format conversational data from 24 participants",
         "Trained a custom Transformer model to track sentiment progression over time",
-        "Conducted deep exploratory analysis over an 8-week clinical study"
+        "Conducted deep exploratory analysis over an 8-week clinical study",
+        "Performing sentiment analysis on participant feedback to improve VR experiences"
       ]
     },
     {
-      role: "Business Analyst",
+      role: "Data Scientist",
       company: "Bigbasket",
       companylogo: require("./assets/images/tata2.png"), // We'll use existing logo for now
       date: "March 2022 – July 2024",
       desc: "Youngest member to join core ops analytics team, scaling a new vertical from launch to ₹300 Cr/month (~$36M) in 1.5 years.",
       descBullets: [
-        "Improved on-time delivery to 85% by optimizing delivery systems via SQL + dashboards",
-        "Conducted P&L and store-level analysis, helping 44+ stores become profitable",
-        "Created SOPs and mentored new analysts on data quality and reporting"
+        "Built production-grade demand-forecasting & route-optimization models that fuelled a ₹300 Cr/month grocery vertical and lifted on-time delivery from 67 % → 85 %.",
+        "Built Store Level P&L simulator. Actions from model led to 44+ stores becoming profitable.",
+        "Built Route Optimization that reduced mean delivery time by 15%. Pushed On Time Delivery to 85% ( from 67% )."
       ]
     },
     {
@@ -209,8 +210,8 @@ const workExperiences = {
       desc: "Developed comprehensive test automation solutions for a major U.S. pet retail application.",
       descBullets: [
         "Developed test automation for a major U.S. pet retail app using Java",
-        "Built performance and security tests across mobile workflows",
-        "Collaborated with dev and PM teams to deliver 20+ feature rollouts"
+        "Built 350+ automated end-to-end, performance, and OWASP-ZAP security tests in Java/TestNG, cutting regression cycle time from 4 days to < 8 hours.",
+        "Integrated suites into a Jenkins CI/CD pipeline with Slack alerts, raising defect-detection rate by 40 % and enabling 12+ zero-downtime feature rollouts."
       ]
     }
   ]
